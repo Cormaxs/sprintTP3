@@ -1,0 +1,21 @@
+[{
+    "nombreSuperHeroe": "Spider-Man",
+    "nombreReal": "Peter Parker",
+    "edad": 18,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Responsabilidad",
+    "poderes": [
+        "Sentido arácnido",
+        "Fuerza sobrehumana",
+        "Agilidad"
+    ],
+    "aliados": [
+        "Iron Man",
+        "Capitán América"
+    ],
+    "enemigos": [
+        "Green Goblin",
+        "Venom"
+    ],
+    "nombrePersonaCargo": "Nick Fury"
+}]

@@ -1,12 +1,8 @@
-//CONEXION A LA BASE DE DATOS MONGODB
 
-//Importa Mongoose
 import mongoose from 'mongoose';
 
-//Funcion asincrónica que establece la conexión a la base de datos
 export async function connectDB() {
     try {
-        //Conexión a MongoDB usando una cadena de conexión
         await mongoose.connect(
             'mongodb+srv://Grupo-16:grupo16@cursadanodejs.ls9ii.mongodb.net/Node-js', {
                 useNewUrlParser: true,

@@ -1,0 +1,19 @@
+config -> configura la base de datos coneccion 
+controllers-> controladores
+models -> modelo de datos, la estructura
+repositories->capa de persistencia implementa crud del modelo
+routes-> rutas de la api
+services-> logica del negocio, servicios
+views->capa de presentacion funciones para mostrar datos
+
+
+
+rutas testear
+
+http://localhost:3000/api/heroes
+
+http://localhost:3000/api/heroes/64b2f000f1f1e40a5d9c1a01
+
+http://localhost:3000/api/heroes/buscar/nombreReal/
+
+http://localhost:3000/api/heroes/mayores-30

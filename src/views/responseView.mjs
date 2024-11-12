@@ -1,4 +1,3 @@
-//MODULO PARA FORMATEAR LA RESPUESTA DE SUPERHEROES
 export function renderizarSuperheroe(superheroe) {
     return {
         Nombre: superheroe.nombreSuperHeroe,
@@ -9,7 +8,7 @@ export function renderizarSuperheroe(superheroe) {
         Poderes: superheroe.poderes,
         Aliados: superheroe.aliados,
         Enemigos: superheroe.enemigos,
-        "Cargado Por": superheroe.nombrePersonaCargo  //Agregar el nombre de la persona que lo cargo
+        "Cargado Por": superheroe.nombrePersonaCargo  
     };
 }
 

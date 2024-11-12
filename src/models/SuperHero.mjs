@@ -1,6 +1,3 @@
-//DEFINE EL ESQUEMA DE LOS SUPERHEROES EN MONGODB
-
-//Define el esquema de superhéroe usando Mongoose
 import mongoose from 'mongoose';
 
 const superheroSchema = new mongoose.Schema({
@@ -14,6 +11,6 @@ const superheroSchema = new mongoose.Schema({
     enemigos: [String],
     nombrePersonaCargo: { type: String, required: true }, //Nuevo campo
     createdAt: { type: Date, default: Date.now }
-}, { collection: 'Grupo-16' }); //colección de grupo
+}, { collection: 'Grupo-16' }); 
 
 export default mongoose.model('SuperHero', superheroSchema);
